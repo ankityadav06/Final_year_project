@@ -1,0 +1,95 @@
+/* Navbar Styling */
+nav {
+    background-color: #626875; /* Blue background */
+    color: white;
+    padding: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .logo img {
+    width: 80px;  /* Adjust width as needed */
+    height: auto;  /* Maintains aspect ratio */
+  }
+  /* Navbar container */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .logo a:hover {
+    color: #dbeafe; /* Light blue */
+  }
+  
+  /* Navigation Links */
+  .page_link {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+   
+  }
+  
+  .page_link li {
+    font-size: 1rem;
+    font-size: 20px;
+  }
+  
+  .page_link li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .page_link li a:hover {
+    color: #dbeafe; /* Light blue */
+  }
+  
+  /* Profile and Login Icons */
+  .logo_icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .logo_icons a {
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .logo_icons a:hover {
+    color: #60799a; /* Light blue */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .page_link {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .logo_icons {
+      margin-top: 10px;
+    }
+  }
+  
